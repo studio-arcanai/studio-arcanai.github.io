@@ -1,0 +1,91 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond circulaire avec dégradé mystique -->
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#c41e3a;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3009;stop-opacity:1" />
+    </radialGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cercle principal -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" stroke="#d4af37" stroke-width="3" filter="url(#glow)"/>
+  
+  <!-- Étoiles mystiques autour -->
+  <g fill="#d4af37" opacity="0.8">
+    <path d="M50,30 L52,36 L58,36 L53,40 L55,46 L50,42 L45,46 L47,40 L42,36 L48,36 Z"/>
+    <path d="M150,30 L152,36 L158,36 L153,40 L155,46 L150,42 L145,46 L147,40 L142,36 L148,36 Z"/>
+    <path d="M30,100 L32,106 L38,106 L33,110 L35,116 L30,112 L25,116 L27,110 L22,106 L28,106 Z"/>
+    <path d="M170,100 L172,106 L178,106 L173,110 L175,116 L170,112 L165,116 L167,110 L162,106 L168,106 Z"/>
+  </g>
+  
+  <!-- Symbole central mystique - œil dans triangle -->
+  <g transform="translate(100,80)">
+    <!-- Triangle mystique -->
+    <path d="M0,-20 L17,15 L-17,15 Z" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+    
+    <!-- Œil central -->
+    <ellipse cx="0" cy="-2" rx="12" ry="8" fill="#ffffff" opacity="0.9"/>
+    <circle cx="0" cy="-2" r="6" fill="#1a3009"/>
+    <circle cx="0" cy="-2" r="3" fill="#d4af37"/>
+    <circle cx="-1" cy="-3" r="1" fill="#ffffff" opacity="0.7"/>
+  </g>
+  
+  <!-- Texte "PROFESSOR" en arc supérieur -->
+  <defs>
+    <path id="topArc" d="M 30,100 A 70,70 0 0,1 170,100"/>
+  </defs>
+  <text font-family="serif" font-size="16" font-weight="bold" fill="url(#textGradient)" text-anchor="middle">
+    <textPath href="#topArc" startOffset="50%">PROFESSOR</textPath>
+  </text>
+  
+  <!-- Texte "KOUNTA" au centre -->
+  <text x="100" y="130" font-family="serif" font-size="24" font-weight="bold" 
+        fill="url(#textGradient)" text-anchor="middle" filter="url(#glow)">KOUNTA</text>
+  
+  <!-- Texte "VIDENTE" en arc inférieur -->
+  <defs>
+    <path id="bottomArc" d="M 170,100 A 70,70 0 0,1 30,100"/>
+  </defs>
+  <text font-family="serif" font-size="12" font-weight="normal" fill="#d4af37" text-anchor="middle">
+    <textPath href="#bottomArc" startOffset="50%">✦ VIDENTE TRADICIONAL ✦</textPath>
+  </text>
+  
+  <!-- Détails décoratifs -->
+  <g stroke="#d4af37" stroke-width="1" fill="none" opacity="0.6">
+    <!-- Cercles concentriques -->
+    <circle cx="100" cy="100" r="75"/>
+    <circle cx="100" cy="100" r="85"/>
+    
+    <!-- Lignes de rayonnement -->
+    <g transform="translate(100,100)">
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(0)"/>
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(45)"/>
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(90)"/>
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(135)"/>
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(180)"/>
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(225)"/>
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(270)"/>
+      <line x1="0" y1="-90" x2="0" y2="-80" transform="rotate(315)"/>
+    </g>
+  </g>
+  
+  <!-- Années d'expérience -->
+  <text x="100" y="175" font-family="serif" font-size="10" font-weight="bold" 
+        fill="#d4af37" text-anchor="middle">25 ANOS DE EXPERIÊNCIA</text>
+</svg>

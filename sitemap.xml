@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Page d'accueil -->
+    <url>
+        <loc>https://studio-arcanai.github.io/</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Projet 1 - Marie Dubois -->
+    <url>
+        <loc>https://studio-arcanai.github.io/portfolio/marie-dubois/index.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://studio-arcanai.github.io/images/portfolio/marie-dubois.png</image:loc>
+            <image:title>Site web coach professionnel Marie Dubois</image:title>
+            <image:caption>Landing page reconversion professionnelle Lyon</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Projet 2 - Kounta -->
+    <url>
+        <loc>https://studio-arcanai.github.io/portfolio/kounta/index.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://studio-arcanai.github.io/images/portfolio/kounta.png</image:loc>
+            <image:title>Site web vidente Portugal Kounta</image:title>
+            <image:caption>Landing page en portugais</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Projet 3 - Atelier Lumina -->
+    <url>
+        <loc>https://studio-arcanai.github.io/portfolio/atelier-lumina/index.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://studio-arcanai.github.io/images/portfolio/atelier-lumina.png</image:loc>
+            <image:title>Site internet artisan créateur Atelier Lumina</image:title>
+            <image:caption>Luminaires artisanaux éco-responsables Annecy</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Projet 4 - Boundou -->
+    <url>
+        <loc>https://studio-arcanai.github.io/portfolio/boundou/index.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://studio-arcanai.github.io/images/portfolio/boundou.png</image:loc>
+            <image:title>Page web voyant médium Boundou</image:title>
+            <image:caption>Site professionnel voyance France Belgique</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Projet 5 - AB Académie -->
+    <url>
+        <loc>https://studio-arcanai.github.io/portfolio/ab-academie/index.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://studio-arcanai.github.io/images/portfolio/ab-academie.png</image:loc>
+            <image:title>Site web formation professionnelle AB Académie</image:title>
+            <image:caption>Centre de formation beauté Saint-Quentin</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Sous-page formation onglerie -->
+    <url>
+        <loc>https://studio-arcanai.github.io/portfolio/ab-academie/formation-onglerie.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Pages légales -->
+    <url>
+        <loc>https://studio-arcanai.github.io/mentions-legales.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://studio-arcanai.github.io/politique-confidentialite.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+</urlset>

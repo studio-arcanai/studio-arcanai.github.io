@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Atelier Lumina | Julie & Maxime - Luminaires Artisanaux Recyclés | Annecy</title>
+    <meta name="description" content="Découvrez l'atelier de Julie & Maxime à Annecy. Luminaires uniques en matériaux recyclés, design scandinave, fabrication artisanale française.">
+    <meta name="keywords" content="luminaires artisanaux, matériaux recyclés, Annecy, Julie Maxime, design scandinave, sur mesure">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Atelier Lumina - Luminaires Artisanaux Éco-Responsables">
+    <meta property="og:description" content="Entrez dans notre atelier à Annecy et découvrez la naissance de luminaires uniques en matériaux recyclés.">
+    <meta property="og:image" content="/images/atelier-social.jpg">
+    <meta property="og:url" content="https://atelier-lumina.fr">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Atelier Lumina",
+        "description": "Atelier d'artisanat créant des luminaires uniques en matériaux recyclés",
+        "url": "https://atelier-lumina.fr",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Annecy",
+            "postalCode": "74000",
+            "addressCountry": "FR"
+        },
+        "founder": [
+            {"@type": "Person", "name": "Julie Bertrand"},
+            {"@type": "Person", "name": "Maxime Bertrand"}
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "247"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to content -->
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+    <!-- Navigation -->
+    <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-icon" aria-hidden="true">
+                    <!-- <img src="logo.svg" alt="Logo Atelier Lumina" width="150" height="150"> -->
+                </div>
+                <!-- <div class="brand-text">
+                    <span class="brand-name">Atelier Lumina</span>
+                    <span class="brand-tagline">Visite guidée</span>
+                </div> -->
+            </div>
+            
+            <div class="tour-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Progression de la visite">
+                <div class="progress-track">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-steps">
+                    <button class="step-dot active" data-step="0" aria-label="Entrée de l'atelier">1</button>
+                    <button class="step-dot" data-step="1" aria-label="Rencontrer les artisans">2</button>
+                    <button class="step-dot" data-step="2" aria-label="Découvrir nos créations">3</button>
+                    <button class="step-dot" data-step="3" aria-label="Commander">4</button>
+                </div>
+            </div>
+            
+            <div class="nav-contact">
+                <a href="tel:+33450000000" class="contact-btn">📞 Nous appeler</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Tour Content -->
+    <main id="main" class="tour-container">
+        
+        <!-- Étape 1: Entrée / Bienvenue -->
+        <section class="tour-step active" id="step-0" data-step="0">
+            <div class="step-content">
+                <div class="welcome-layout">
+                    <div class="welcome-visual">
+                        <div class="workshop-door" tabindex="0" role="button" aria-label="Porte de l'atelier, cliquez pour entrer">
+                            <div class="door-window">
+                                <div class="workshop-preview">
+                                    <span class="preview-light">💡</span>
+                                    <span class="preview-tools">🔨</span>
+                                    <span class="preview-wood">🪵</span>
+                                </div>
+                            </div>
+                            <div class="door-handle" aria-hidden="true"></div>
+                        </div>
+                        
+                        <div class="workshop-sign">
+                            <h1 class="workshop-title">Atelier Lumina</h1>
+                            <p class="workshop-subtitle">Luminaires artisanaux • Matériaux recyclés</p>
+                            <div class="workshop-credentials">
+                                <span>📍 Annecy</span>
+                                <span>⭐ 4.9/5 (247 avis)</span>
+                                <span>🏆 Maison & Objet 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="welcome-content">
+                        <h2 class="main-headline">
+                            Bienvenue dans notre atelier !
+                            <span class="headline-subtitle">Découvrez comment naissent vos luminaires</span>
+                        </h2>
+                        
+                        <p class="main-description">
+                            Julie et Maxime vous ouvrent les portes de leur atelier à Annecy. 
+                            Depuis 2021, ils transforment des matériaux recyclés en luminaires uniques, 
+                            alliant design scandinave et savoir-faire français.
+                        </p>
+                        
+                        <div class="key-features">
+                            <div class="feature">
+                                <span class="feature-icon" aria-hidden="true">♻️</span>
+                                <span>Matériaux recyclés sourés à 50km</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon" aria-hidden="true">🎨</span>
+                                <span>Design scandinave personnalisable</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon" aria-hidden="true">🛡️</span>
+                                <span>Garantie 5 ans • SAV réactif</span>
+                            </div>
+                        </div>
+                        
+                        <div class="welcome-actions">
+                            <button class="btn-primary btn-large" data-next-step="1">
+                                🚪 Entrer dans l'atelier
+                            </button>
+                            <a href="#contact-rapide" class="btn-secondary">⚡ Contact rapide</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Étape 2: Rencontrer les Artisans -->
+        <section class="tour-step" id="step-1" data-step="1">
+            <div class="step-content">
+                <header class="step-header">
+                    <h2 class="step-title">
+                        Rencontrez Julie & Maxime
+                        <span class="step-subtitle">Les âmes de l'atelier</span>
+                    </h2>
+                </header>
+                
+                <div class="artisans-presentation">
+                    <div class="artisan-switcher" role="tablist">
+                        <button class="artisan-tab active" role="tab" data-artisan="julie" aria-selected="true" aria-controls="julie-content">
+                            <span class="tab-emoji" aria-hidden="true">🎨</span>
+                            <span>Julie</span>
+                        </button>
+                        <button class="artisan-tab" role="tab" data-artisan="maxime" aria-selected="false" aria-controls="maxime-content">
+                            <span class="tab-emoji" aria-hidden="true">🔨</span>
+                            <span>Maxime</span>
+                        </button>
+                    </div>
+                    
+                    <div class="artisan-content">
+                        <div class="artisan-card active" id="julie-content" role="tabpanel" aria-labelledby="julie-tab">
+                            <div class="artisan-visual">
+                                <div class="artisan-avatar julie">
+                                    <span class="avatar-letter">J</span>
+                                    <div class="avatar-tools" aria-hidden="true">✏️ 📐</div>
+                                </div>
+                                <div class="work-display">
+                                    <div class="sketch-pad" aria-hidden="true">📋</div>
+                                    <div class="color-palette" aria-hidden="true">🎨</div>
+                                </div>
+                            </div>
+                            
+                            <div class="artisan-story">
+                                <div class="story-header">
+                                    <h3>Julie, 29 ans</h3>
+                                    <div class="story-role">Design & Concept</div>
+                                </div>
+                                
+                                <blockquote class="story-quote">
+                                    "Après 5 ans dans le marketing digital, j'avais besoin de créer quelque chose de tangible. 
+                                    Chaque luminaire raconte une histoire, celle du bois qui retrouve une seconde vie."
+                                </blockquote>
+                                
+                                <div class="story-expertise">
+                                    <strong>Spécialité :</strong> Design scandinave • Sourcing matériaux
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="artisan-card" id="maxime-content" role="tabpanel" aria-labelledby="maxime-tab">
+                            <div class="artisan-visual">
+                                <div class="artisan-avatar maxime">
+                                    <span class="avatar-letter">M</span>
+                                    <div class="avatar-tools" aria-hidden="true">🔨 🪚</div>
+                                </div>
+                                <div class="work-display">
+                                    <div class="wood-pieces" aria-hidden="true">🪵</div>
+                                    <div class="tools-bench" aria-hidden="true">🔧</div>
+                                </div>
+                            </div>
+                            
+                            <div class="artisan-story">
+                                <div class="story-header">
+                                    <h3>Maxime, 31 ans</h3>
+                                    <div class="story-role">Fabrication & Finition</div>
+                                </div>
+                                
+                                <blockquote class="story-quote">
+                                    "Ingénieur reconverti, j'apporte la précision technique au rêve créatif de Julie. 
+                                    Chaque pièce est unique, comme une œuvre d'art fonctionnelle."
+                                </blockquote>
+                                
+                                <div class="story-expertise">
+                                    <strong>Spécialité :</strong> Ébénisterie • Électricité • Finitions
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="origin-story">
+                    <h3>Notre histoire en bref</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="year">2020</div>
+                            <div class="event">Le déclic - Questionnement sur le sens du travail</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">2021</div>
+                            <div class="event">Formation ébénisterie, création des prototypes</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">2022</div>
+                            <div class="event">Installation à Annecy, premières ventes</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">2023</div>
+                            <div class="event">Maison & Objet, 200+ clients satisfaits</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-navigation">
+                    <button class="btn-secondary" data-prev-step="0">← Retour à l'entrée</button>
+                    <button class="btn-primary" data-next-step="2">Voir nos créations →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Étape 3: Galerie des Créations -->
+        <section class="tour-step" id="step-2" data-step="2">
+            <div class="step-content">
+                <header class="step-header">
+                    <h2 class="step-title">
+                        Nos créations illuminent 247 foyers
+                        <span class="step-subtitle">Chaque pièce raconte une histoire unique</span>
+                    </h2>
+                </header>
+                
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Toutes nos créations</button>
+                    <button class="filter-btn" data-filter="suspension">Suspensions</button>
+                    <button class="filter-btn" data-filter="applique">Appliques</button>
+                    <button class="filter-btn" data-filter="lampe">Lampes</button>
+                </div>
+                
+                <div class="products-gallery">
+                    <div class="product-showcase">
+                        <article class="product-card featured suspension" data-product="suspension-chene" tabindex="0">
+                            <div class="product-image">
+                                <div class="product-visual">💡</div>
+                                <div class="product-glow" aria-hidden="true"></div>
+                                <div class="bestseller-badge">⭐ Bestseller</div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Suspension Chêne Recyclé</h3>
+                                <div class="product-price">189€</div>
+                                <div class="product-desc">Design épuré, chêne de charpente séculaire</div>
+                                <div class="product-specs">Ø 30-60cm • H 15-25cm • LED inclus</div>
+                            </div>
+                        </article>
+                        
+                        <article class="product-card applique" data-product="applique-pin" tabindex="0">
+                            <div class="product-image">
+                                <div class="product-visual">🔦</div>
+                                <div class="product-glow" aria-hidden="true"></div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Applique Pin des Aravis</h3>
+                                <div class="product-price">149€</div>
+                                <div class="product-desc">Pin sylvestre, parfum naturel de montagne</div>
+                            </div>
+                        </article>
+                        
+                        <article class="product-card lampe" data-product="lampe-noyer" tabindex="0">
+                            <div class="product-image">
+                                <div class="product-visual">🪔</div>
+                                <div class="product-glow" aria-hidden="true"></div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Lampe Noyer & Cuivre</h3>
+                                <div class="product-price">229€</div>
+                                <div class="product-desc">Noyer d'élagage urbain et cuivre patiné</div>
+                            </div>
+                        </article>
+                        
+                        <article class="product-card suspension" data-product="lustre-custom" tabindex="0">
+                            <div class="product-image">
+                                <div class="product-visual">🕯️</div>
+                                <div class="product-glow" aria-hidden="true"></div>
+                                <div class="custom-badge">🎨 Sur-mesure</div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Lustre Matériaux Mixtes</h3>
+                                <div class="product-price">À partir de 449€</div>
+                                <div class="product-desc">Création unique selon vos souhaits</div>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="product-details">
+                        <div class="detail-card">
+                            <h4 class="detail-title">Suspension Chêne Recyclé</h4>
+                            <div class="detail-price">189€</div>
+                            
+                            <div class="detail-content">
+                                <div class="material-origin">
+                                    <strong>Origine :</strong> Charpente ancienne rénovée à Annecy (vers 1870)
+                                </div>
+                                
+                                <div class="product-highlights">
+                                    <div class="highlight">✨ Veinures naturelles uniques</div>
+                                    <div class="highlight">💡 LED warm white inclus</div>
+                                    <div class="highlight">📏 Dimensions adaptables</div>
+                                    <div class="highlight">🛡️ Garantie 5 ans</div>
+                                </div>
+                                
+                                <div class="customization">
+                                    <h5>Personnalisation</h5>
+                                    <div class="custom-options">
+                                        <select class="size-select" aria-label="Choisir la taille">
+                                            <option>Ø 30cm - Standard (189€)</option>
+                                            <option>Ø 40cm - Salon (+20€)</option>
+                                            <option>Ø 50cm - Grande pièce (+40€)</option>
+                                            <option>Sur-mesure (+40%)</option>
+                                        </select>
+                                        
+                                        <select class="finish-select" aria-label="Choisir la finition">
+                                            <option>Huile naturelle - Inclus</option>
+                                            <option>Brut naturel - Inclus</option>
+                                            <option>Teinté noyer (+15€)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="social-proof">
+                                    <div class="rating">⭐⭐⭐⭐⭐ 4.9/5 (247 avis)</div>
+                                    <div class="recent-sales">🔥 3 commandes cette semaine</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-preview">
+                    <blockquote class="quick-testimonial">
+                        "Magnifique suspension pour ma cuisine ! Julie et Maxime ont su adapter les dimensions parfaitement. 
+                        La qualité est au rendez-vous."
+                        <cite>— Thomas, Annecy</cite>
+                    </blockquote>
+                </div>
+                
+                <div class="step-navigation">
+                    <button class="btn-secondary" data-prev-step="1">← Rencontrer les artisans</button>
+                    <button class="btn-primary" data-next-step="3">Commander maintenant →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Étape 4: Commande -->
+        <section class="tour-step" id="step-3" data-step="3">
+            <div class="step-content">
+                <header class="step-header">
+                    <h2 class="step-title">
+                        Créons ensemble votre luminaire unique
+                        <span class="step-subtitle">Plusieurs façons de commencer le projet</span>
+                    </h2>
+                </header>
+                
+                <div class="contact-methods">
+                    <div class="method-card phone" tabindex="0">
+                        <div class="method-icon" aria-hidden="true">📞</div>
+                        <h3>Appel direct</h3>
+                        <p>Discussion personnalisée avec Julie ou Maxime</p>
+                        <a href="tel:+33450000000" class="method-btn">06 12 34 56 78</a>
+                        <div class="method-hours">Lun-Ven 9h-18h</div>
+                    </div>
+                    
+                    <div class="method-card email" tabindex="0">
+                        <div class="method-icon" aria-hidden="true">📧</div>
+                        <h3>Email détaillé</h3>
+                        <p>Envoyez-nous votre projet avec photos et dimensions</p>
+                        <a href="mailto:hello@atelier-lumina.fr?subject=Nouveau projet luminaire" class="method-btn">
+                            Écrire un email
+                        </a>
+                        <div class="method-hours">Réponse sous 24h</div>
+                    </div>
+                    
+                    <div class="method-card whatsapp" tabindex="0">
+                        <div class="method-icon" aria-hidden="true">💬</div>
+                        <h3>WhatsApp</h3>
+                        <p>Échange rapide avec photos et suivi fabrication</p>
+                        <a href="https://wa.me/33612345678" class="method-btn" target="_blank" rel="noopener">
+                            Ouvrir WhatsApp
+                        </a>
+                        <div class="method-hours">Réponse rapide</div>
+                    </div>
+                </div>
+                
+                <div class="order-form-section">
+                    <h3>Commande express</h3>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="product">Produit souhaité</label>
+                                <select id="product" name="product" required>
+                                    <option value="">Choisissez votre luminaire</option>
+                                    <option value="suspension-chene">Suspension Chêne (189€)</option>
+                                    <option value="applique-pin">Applique Pin (149€)</option>
+                                    <option value="lampe-noyer">Lampe Noyer (229€)</option>
+                                    <option value="sur-mesure">Projet sur-mesure</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Votre nom</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Téléphone (optionnel)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Détails du projet</label>
+                            <textarea id="message" name="message" rows="4" 
+                                     placeholder="Décrivez votre espace, vos préférences, contraintes particulières..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <span class="checkbox-text">Recevoir nos nouveautés par email</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-large form-submit">
+                            🚀 Envoyer ma demande
+                        </button>
+                        
+                        <div class="form-guarantees">
+                            <div class="guarantee">🛡️ Devis gratuit sous 48h</div>
+                            <div class="guarantee">🔒 Données protégées</div>
+                            <div class="guarantee">❌ Aucun spam</div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="process-overview">
+                    <h3>Comment ça se passe après votre commande ?</h3>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-text">
+                                <strong>Échange initial</strong>
+                                <span>Discussion de vos besoins par téléphone ou email</span>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-text">
+                                <strong>Devis personnalisé</strong>
+                                <span>Julie vous envoie un devis avec croquis sous 48h</span>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-text">
+                                <strong>Fabrication suivie</strong>
+                                <span>Photos des étapes par WhatsApp, 3-4 semaines</span>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-text">
+                                <strong>Livraison soignée</strong>
+                                <span>Emballage renforcé, France/Belgique/Suisse</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="final-guarantees">
+                    <div class="guarantee-grid">
+                        <div class="guarantee-card">
+                            <span class="guarantee-icon" aria-hidden="true">✅</span>
+                            <strong>Satisfaction garantie</strong>
+                            <span>Retouches gratuites si le résultat ne correspond pas</span>
+                        </div>
+                        <div class="guarantee-card">
+                            <span class="guarantee-icon" aria-hidden="true">🛡️</span>
+                            <strong>Garantie 5 ans</strong>
+                            <span>Réparation ou remplacement pris en charge</span>
+                        </div>
+                        <div class="guarantee-card">
+                            <span class="guarantee-icon" aria-hidden="true">🚚</span>
+                            <strong>Livraison assurée</strong>
+                            <span>France, Belgique, Suisse • Casse remboursée</span>
+                        </div>
+                        <div class="guarantee-card">
+                            <span class="guarantee-icon" aria-hidden="true">💬</span>
+                            <strong>SAV humain</strong>
+                            <span>Julie et Maxime restent vos interlocuteurs directs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-navigation">
+                    <button class="btn-secondary" data-prev-step="2">← Voir nos créations</button>
+                    <button class="btn-secondary restart-tour" data-restart-step="0">🔄 Refaire la visite</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Atelier Lumina</h3>
+                    <p>Julie & Maxime Bertrand<br>Artisans créateurs depuis 2021</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/atelierlumina" target="_blank" rel="noopener">📱 Instagram</a>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <address>
+                        📍 Annecy, France<br>
+                        📞 <a href="tel:+33450000000">06 12 34 56 78</a><br>
+                        📧 <a href="mailto:hello@atelier-lumina.fr">hello@atelier-lumina.fr</a>
+                    </address>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Informations</h4>
+                    <nav class="footer-nav">
+                        <a href="#garantie">Garantie 5 ans</a>
+                        <a href="#livraison">Livraison</a>
+                        <a href="#sur-mesure">Sur-mesure</a>
+                        <a href="#mentions">Mentions légales</a>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Atelier Lumina - Julie & Maxime Bertrand • Tous droits réservés</p>
+                <p class="footer-slogan">✨ Éclairer autrement, consommer mieux</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js" defer></script>
+    
+</body>
+</html>

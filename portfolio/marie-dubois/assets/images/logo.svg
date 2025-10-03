@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <!-- Fond avec dégradé subtil -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:0.3"/>
+    </linearGradient>
+    
+    <!-- Dégradé pour l'icône -->
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1"/>
+    </linearGradient>
+    
+    <!-- Ombre pour l'icône -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#1e293b" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Icône symbolique - transformation/croissance -->
+  <g transform="translate(10, 15)">
+    <!-- Cercle de base représentant la renaissance -->
+    <circle cx="25" cy="25" r="22" fill="url(#iconGradient)" filter="url(#shadow)" opacity="0.9"/>
+    
+    <!-- Flèche ascendante stylisée -->
+    <g fill="white">
+      <!-- Flèche principale -->
+      <path d="M15 30 L25 15 L35 30 L30 30 L30 35 L20 35 L20 30 Z" opacity="0.95"/>
+      <!-- Points de progression -->
+      <circle cx="18" cy="38" r="1.5" opacity="0.8"/>
+      <circle cx="25" cy="38" r="1.5" opacity="0.8"/>
+      <circle cx="32" cy="38" r="1.5" opacity="0.8"/>
+    </g>
+    
+    <!-- Accent décoratif -->
+    <circle cx="25" cy="25" r="22" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+  </g>
+  
+  <!-- Texte principal -->
+  <g transform="translate(70, 0)">
+    <!-- Nom -->
+    <text x="0" y="28" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#1f2937">
+      Marie Dubois
+    </text>
+    
+    <!-- Ligne séparatrice subtile -->
+    <line x1="0" y1="32" x2="200" y2="32" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- Titre professionnel -->
+    <text x="0" y="50" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#6b7280">
+      Coach Reconversion Professionnelle
+    </text>
+    
+    <!-- Spécialité -->
+    <text x="0" y="65" font-family="Inter, sans-serif" font-size="11" font-weight="400" fill="#9ca3af">
+      Méthode Renaissance • Lyon
+    </text>
+  </g>
+  
+  <!-- Badge de certification discret -->
+  <g transform="translate(250, 45)">
+    <rect x="0" y="0" width="40" height="16" rx="8" fill="#10b981" opacity="0.1"/>
+    <text x="20" y="11" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#10b981" text-anchor="middle">
+      PCC
+    </text>
+  </g>
+  
+  <!-- Éléments décoratifs minimalistes -->
+  <g opacity="0.1">
+    <!-- Particules de transformation -->
+    <circle cx="260" cy="15" r="1" fill="#3b82f6"/>
+    <circle cx="270" cy="20" r="1.5" fill="#1d4ed8"/>
+    <circle cx="275" cy="10" r="0.8" fill="#3b82f6"/>
+  </g>
+</svg>

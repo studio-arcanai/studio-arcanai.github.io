@@ -1,0 +1,51 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle subtil -->
+  <circle cx="60" cy="60" r="45" fill="none" stroke="#e8f4f8" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Suspension lumineuse principale -->
+  <line x1="60" y1="20" x2="60" y2="35" stroke="#2c5530" stroke-width="2"/>
+  
+  <!-- Ampoule stylisée scandinave -->
+  <ellipse cx="60" cy="50" rx="15" ry="20" fill="none" stroke="#2c5530" stroke-width="2.5"/>
+  
+  <!-- Filament intérieur -->
+  <path d="M52 45 Q60 40 68 45 Q60 50 52 55 Q60 50 68 55" fill="none" stroke="#8b9467" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Culot de l'ampoule -->
+  <rect x="55" y="70" width="10" height="6" fill="#2c5530" rx="1"/>
+  <line x1="52" y1="73" x2="68" y2="73" stroke="#2c5530" stroke-width="0.5"/>
+  
+  <!-- Rayons lumineux épurés -->
+  <g stroke="#f4a460" stroke-width="2" opacity="0.6">
+    <line x1="45" y1="35" x2="40" y2="30"/>
+    <line x1="75" y1="35" x2="80" y2="30"/>
+    <line x1="35" y1="50" x2="25" y2="50"/>
+    <line x1="85" y1="50" x2="95" y2="50"/>
+    <line x1="45" y1="65" x2="40" y2="70"/>
+    <line x1="75" y1="65" x2="80" y2="70"/>
+  </g>
+  
+  <!-- Élément naturel : petite branche -->
+  <path d="M25 85 Q30 80 35 85 M30 82 L28 80 M32 82 L34 80" stroke="#8b9467" stroke-width="1.5" fill="none" opacity="0.8"/>
+  
+  <!-- Texte ATELIER -->
+  <text x="130" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="300" fill="#2c5530" letter-spacing="2px">ATELIER</text>
+  
+  <!-- Texte LUMINA -->
+  <text x="130" y="65" font-family="Arial, sans-serif" font-size="32" font-weight="600" fill="#2c5530" letter-spacing="3px">LUMINA</text>
+  
+  <!-- Sous-titre -->
+  <text x="130" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#8b9467" letter-spacing="1px">ARTISANAT MODERNE</text>
+  
+  <!-- Ligne décorative -->
+  <line x1="130" y1="95" x2="200" y2="95" stroke="#e8f4f8" stroke-width="1"/>
+  
+  <!-- Petit symbole recyclage discret -->
+  <g transform="translate(270, 25) scale(0.8)" opacity="0.6">
+    <path d="M0 0 L6 10 L-6 10 Z M3 5 L9 15 L-3 15 Z M-3 5 L3 15 L-9 15 Z" fill="none" stroke="#8b9467" stroke-width="1"/>
+    <circle cx="0" cy="8" r="2" fill="#8b9467" opacity="0.3"/>
+  </g>
+  
+  <!-- Annecy -->
+  <text x="240" y="110" font-family="Arial, sans-serif" font-size="10" font-weight="300" fill="#8b9467" opacity="0.7">ANNECY</text>
+</svg>
